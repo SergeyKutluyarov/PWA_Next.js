@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const Replier = ({
   isOpen,
-  onClose,
   closeBtn: CloseBtn,
   onSubmit,
   replyTo,
@@ -47,11 +46,6 @@ const Replier = ({
               placeholder="Type here"
             ></textarea>
           </div>
-          <div className="fj-editor-preview-wrapper">
-            <div className="preview">
-              <p></p>
-            </div>
-          </div>
         </div>
         <div className="submit-area">
           <div className="send mr-auto">
@@ -63,13 +57,7 @@ const Replier = ({
             >
               Reply
             </button>
-            {/* <a
-              onClick={onClose}
-              className="btn py-2 ttu gray-10">Cancel</a> */}
             <CloseBtn />
-          </div>
-          <div>
-            <a className="btn py-2 ttu gray-10">hide preview</a>
           </div>
         </div>
       </div>

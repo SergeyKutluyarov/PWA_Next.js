@@ -35,6 +35,7 @@ export default (WrappedComponent, role, options = { ssr: false }) => {
     };
 
     WithAuth.getInitialProps = async (context) => {
+      
       const { req, res } = context;
       if (req) {
         const { user } = req;
