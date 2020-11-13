@@ -3,10 +3,7 @@
     <div className="topic-parent-header">
       <div className="topic-parent-avatar">
         <div className="main-avatar">
-          <img
-            className="avatar subtle-shadow"
-            src="https://i.imgur.com/cVDadwb.png"
-          ></img>
+          <img className="avatar subtle-shadow" src="/pwa-logo.svg"></img>
         </div>
       </div>
       <div className="username">{parent.user.username}</div>

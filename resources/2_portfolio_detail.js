@@ -2,10 +2,10 @@
   <div className="container">
     <div className="jumbotron">
       <h1 className="display-3">Some title</h1>
-      <p className="lead">Some Job title</p>
+      <p className="lead">Some second title</p>
       <p>
         <a className="btn btn-lg btn-success" href="#" role="button">
-          See Company
+          See More
         </a>
       </p>
     </div>
@@ -20,7 +20,6 @@
       </div>
 
       <div className="col-lg-6">
-        {/* TODO: days later... */}
         <h4 className="title">Days</h4>
         <p className="text">44</p>
 
@@ -31,8 +30,8 @@
         <hr />
         <h4 className="title">Description</h4>
         <p>
-          Some Description lala la lalala lala lala la lalala lala lala la
-          lalala lala...
+          Some
+          Description............................................................................
         </p>
       </div>
     </div>

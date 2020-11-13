@@ -23,7 +23,7 @@ const Home = () => {
       <section className="section-title">
         <div className="px-2">
           <div className="pt-5 pb-4">
-            <h1>Portfolios</h1>
+            <h2>Services</h2>
           </div>
         </div>
       </section>
@@ -41,12 +41,12 @@ const Home = () => {
         </div>
       </section>
       <Link href="/portfolios">
-        <a className="btn btn-main bg-blue ttu">See More Portfolios</a>
+        <a className="btn btn-main bg-blue ttu">See All Services</a>
       </Link>
       <section className="section-title">
         <div className="px-2">
           <div className="pt-5 pb-4">
-            <h1>Ask Me</h1>
+            <h2>About PWAs</h2>
           </div>
         </div>
       </section>

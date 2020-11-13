@@ -33,7 +33,7 @@
   </div>
 
   <div className="form-group">
-    <label htmlFor="street">Job Title</label>
+    <label htmlFor="street">Title</label>
     <input
       ref={register}
       name="jobTitle"
