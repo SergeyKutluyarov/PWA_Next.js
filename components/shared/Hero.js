@@ -9,7 +9,10 @@ const Hero = () => (
           Explore this app to see the benefits <br /> of a Progressive Web App
         </h2>
         <div className="button-container">
-          <a href="" className="btn btn-main bg-blue ttu">
+          <a
+            href="https://web.dev/progressive-web-apps" target="_blank"
+            className="btn btn-main bg-blue ttu"
+          >
             More about PWA
           </a>
         </div>

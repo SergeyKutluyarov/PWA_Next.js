@@ -14,3 +14,14 @@ export const shortify = (text, maxLength = 50) => {
 
   return text.substr(0, maxLength) + "...";
 };
+
+export const shortifyCardDescr = (text, maxLength = 70) => {
+  if (!text) {
+    return "";
+  }
+  if (text.length <= maxLength) {
+    return text;
+  }
+
+  return text.substr(0, maxLength) + "...";
+};

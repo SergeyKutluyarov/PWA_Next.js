@@ -140,6 +140,10 @@ html {
 
 // General Components START
 
+.card {
+  min-height: 250px;
+}
+
 .card:hover {
   background-color: $gray-10;
   cursor: pointer;
@@ -167,7 +171,7 @@ html {
   }
 
   .avatar-title {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -230,6 +234,10 @@ html {
   // position: absolute;
   // bottom: 0;
   // left: 0;
+}
+
+small {
+  font-size: 14px;
 }
 
 .fj-hero {

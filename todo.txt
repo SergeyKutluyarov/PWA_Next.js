@@ -3,3 +3,8 @@
 3. Fix base keys names.
 5. Fix favicons to manifest.
 ctrl+alt+l -> console log
+6.Anonymous arrow fix.
+7. About Us.
+8. More about PWA.
+9. Robots.txt
+10. Fix Slugs.

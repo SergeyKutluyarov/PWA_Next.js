@@ -1,4 +1,5 @@
 import { formatDate } from "@/utils/functions";
+import { shortifyCardDescr } from "@/utils/functions";
 
 const PortfolioCard = ({ portfolio }) => {
   return (
@@ -6,7 +7,9 @@ const PortfolioCard = ({ portfolio }) => {
       <div className="card-body">
         <h5 className="card-title">{portfolio.title}</h5>
         <h6 className="card-subtitle mb-2 text-muted">{portfolio.jobTitle}</h6>
-        <p className="card-text fs-2">{portfolio.description}</p>
+        <p className="card-text fs-2">
+          {shortifyCardDescr(portfolio.description)}
+        </p>
       </div>
       <div className="card-footer no-border">
         <small className="text-muted">

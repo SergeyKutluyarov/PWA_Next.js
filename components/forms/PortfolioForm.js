@@ -81,7 +81,7 @@ const PortfolioForm = ({ onSubmit, initialData = {} }) => {
       </div>
 
       <div className="form-group">
-        <label htmlFor="street">Job Title</label>
+        <label htmlFor="street">Task Title</label>
         <input
           ref={register}
           name="jobTitle"
@@ -147,7 +147,7 @@ const PortfolioForm = ({ onSubmit, initialData = {} }) => {
       </div>
 
       <button type="submit" className="btn btn-primary">
-        Create
+        Create \ Update
       </button>
     </form>
   );

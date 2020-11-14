@@ -21,7 +21,7 @@ const PortfolioEdit = () => {
 
   const handlePortfolioUpdate = async (data) => {
     await updatePortfolio({ variables: { id, ...data } });
-    toast.success("Portfolio has been updated!", { autoClose: 2000 });
+    toast.success("Service has been updated!", { autoClose: 2000 });
   };
 
   return (
@@ -29,7 +29,7 @@ const PortfolioEdit = () => {
       <div className="bwm-form mt-5">
         <div className="row">
           <div className="col-md-5 mx-auto">
-            <h1 className="page-title">Edit Portfolio</h1>
+            <h1 className="page-title">Edit Service</h1>
             {data && (
               <PortfolioForm
                 initialData={data.portfolio}

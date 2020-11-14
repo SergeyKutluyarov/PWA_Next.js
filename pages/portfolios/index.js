@@ -14,7 +14,7 @@ const Portfolios = () => {
       <section className="section-title">
         <div className="px-2">
           <div className="pt-5 pb-4">
-            <h1>Portfolios</h1>
+            <h1>Services</h1>
           </div>
         </div>
       </section>

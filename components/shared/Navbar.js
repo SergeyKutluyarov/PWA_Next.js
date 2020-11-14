@@ -46,9 +46,13 @@ const AppNavbar = () => {
             <AppLink href="/forum/categories" className="nav-link mr-3">
               Forum
             </AppLink>
-            <AppLink href="/cv" className="mr-3 nav-link">
+            <a
+              href="https://github.com/sergeypolakov"
+              target="_blank"
+              className="mr-3 nav-link"
+            >
               About Us
-            </AppLink>
+            </a>
           </Nav>
           {hasResponse && (
             <Nav>
@@ -66,7 +70,7 @@ const AppNavbar = () => {
                           href="/portfolios/new"
                           className="dropdown-item"
                         >
-                          Create Portfolio
+                          Create Service
                         </AppLink>
                         <AppLink
                           href="/instructor/[id]/dashboard"

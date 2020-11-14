@@ -21,6 +21,7 @@ const PortfolioDetail = ({ query }) => {
                 <a
                   className="btn btn-lg btn-success"
                   href={`https://${companyWebsitePath}`}
+                  target="_blank"
                   role="button"
                 >
                   See Company
