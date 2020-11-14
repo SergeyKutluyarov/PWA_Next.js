@@ -1,3 +1,5 @@
 1. Fix page 404.
 2. Fix path names.
 3. Fix base keys names.
+5. Fix favicons to manifest.
+ctrl+alt+l -> console log

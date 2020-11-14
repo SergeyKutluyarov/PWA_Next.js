@@ -19,7 +19,6 @@ const Home = () => {
 
   return (
     <BaseLayout page="Home">
-      {/* HOME PAGE STARTS */}
       <section className="section-title">
         <div className="px-2">
           <div className="pt-5 pb-4">
@@ -60,7 +59,6 @@ const Home = () => {
       <Link href="/forum/categories">
         <a className="btn btn-main bg-blue ttu">See More Posts</a>
       </Link>
-      {/* HOME PAGE ENDS */}
     </BaseLayout>
   );
 };
