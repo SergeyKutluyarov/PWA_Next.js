@@ -8,3 +8,4 @@ ctrl+alt+l -> console log
 8. More about PWA.
 9. Robots.txt
 10. Fix Slugs.
+11. Check after deployment.
