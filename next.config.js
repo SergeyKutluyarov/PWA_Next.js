@@ -10,6 +10,6 @@ module.exports = {
   env: {
     BASE_URL: dev
       ? "http://localhost:3000/graphql"
-      : "https://jergafilip.herokuapp.com/graphql",
+      : "https://pwanextjs.herokuapp.com/graphql",
   },
 };
