@@ -5,7 +5,7 @@ const Cv = () => (
     <div className="row mt-4">
       <div className="col-md-8 offset-md-2">
         <iframe
-          src="/jerga_cv.pdf"
+          src="/"
           style={{ width: "100%", height: "800px" }}
         ></iframe>
       </div>
