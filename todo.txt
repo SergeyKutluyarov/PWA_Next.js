@@ -10,3 +10,4 @@ ctrl+alt+l -> console log
 10. Fix Slugs.
 11. Check after deployment.
 12. Fix CSS usage for speed.
+13. Create alias (WWW).

@@ -10,6 +10,6 @@ module.exports = {
   env: {
     BASE_URL: dev
       ? "http://localhost:3000/graphql"
-      : "http://www.nextpwa.com/graphql",
+      : "https://www.nextpwa.com/graphql",
   },
 };
